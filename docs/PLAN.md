@@ -94,7 +94,7 @@ Facts from Snap and Devpost:
 So the answer: **the repo root and the Lens project folder are the same folder.** `docs/PLAN.md` is just one more file in it.
 
 Steps:
-1. In Save As, pick `G:\08_mobile\specs-lens` as the place to save.
+1. In Save As, pick `G:\hackathon\specs-lens` as the place to save.
 2. Look at where `.esproj` landed.
    - In `specs-lens\` itself: done. This git repo is already the right root.
    - In a subfolder `specs-lens\<Name>\`: move `.git` and `docs\` into that subfolder. The subfolder is the repo root and the agent folder. Delete the empty outer folder later.

@@ -16,7 +16,7 @@ Who: **Joy** or **Agent**. Joy-only steps are marked JOY-ONLY.
 
 If sign-in fails from Bangladesh, the entry is dead. We stop here and tell Joy.
 
-- [ ] Joy (JOY-ONLY): press **Join hackathon** at learn-specs.devpost.com.
+- [x] Joined 2026-11-07, solo.
 - [ ] Joy: install Lens Studio **5.23.2** from ar.snap.com/download/v5-23-2. Not 5.24: Devpost says sign-in can fail there. Rules accept 5.22 or later. Needs Windows 11 (this PC is).
 - [ ] Joy (JOY-ONLY): open Lens Studio and sign in to Snap's developer platform.
 - [ ] Gate decision at 10:00: sign-in works = go. Fails = try once with a different account/network, ask in the SPECS Discord channel, then stop by 11:00.

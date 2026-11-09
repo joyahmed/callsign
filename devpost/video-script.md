@@ -1,4 +1,4 @@
-# Callsign - video script (rough cut 2:41, hard limit 3:00)
+# Callsign - video script (rough cut 2:34, hard limit 3:00)
 
 Picture: `G:\hackathon\callsign-video\rough-cut.mp4` (built by `cut.sh` in that folder, not in git).
 It already has the Lens sounds: the chime and each machine's call voice.
@@ -15,9 +15,8 @@ should stay audible, so don't talk over "Meli calling Joy" at 0:49, "Ana calling
 | 1:12-1:32 | Speak pressed: "Yes, push it", "Sent to Meli", card fades. Ana calls (~1:17), Yes pressed, "Sent to Ana: Yes" | "I just answer out loud. In the preview, the Speak button stands in for my voice; on the glasses, speech-to-text does it. Quick answers are one pinch: yes, no or later." |
 | 1:32-1:44 | Alina calls (~1:34): "sunstone: Restart the server now?" | "The next one is already waiting. Each machine has its own voice, so I know who's calling before I look." |
 | 1:44-2:02 | Pinch Steph: Steph · Windows, its sessions. Pinch Alina: Alina · Ubuntu Server | "I can also check any machine without waiting for a call. Pinch a callsign and see what that machine is doing." |
-| 2:02-2:09 | Head turns right once, card swings back in front | "If I move, the card follows me and stays just below my eyes." |
-| 2:09-2:31 | Card: "Planned with plan-lens · Built with CLAD", "6 of 6 LEAF tests pass" | "I planned it with the plan-lens skill and built it with Snap's CLAD agents in Lens Studio. Every done criterion has a LEAF test, and all six pass. Today the questions are sample data; next is a small relay so my real sessions can call me." |
-| 2:31-2:41 | Card: "Callsign" | "Callsign. My fleet calls, I answer, I keep training." |
+| 2:02-2:24 | Card: "Planned with plan-lens · Built with CLAD", "6 of 6 LEAF tests pass" | "I planned it with the plan-lens skill and built it with Snap's CLAD agents in Lens Studio. Every done criterion has a LEAF test, and all six pass. Today the questions are sample data; next is a small relay so my real sessions can call me." |
+| 2:24-2:34 | Card: "Callsign" | "Callsign. My fleet calls, I answer, I keep training." |
 
 Rules (from the hackathon):
 - Real Lens Studio preview, not slides. The footage is one continuous preview take, cut only for length.

@@ -33,3 +33,6 @@ Workspaces/
 
 # Added by Lens Studio (LEAF plugin)
 leaf_plugin_settings.json
+
+# Internal delivery plan, kept local
+docs/PLAN.md

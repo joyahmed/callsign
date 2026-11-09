@@ -26,13 +26,13 @@ export const MACHINES: {[name: string]: MachineInfo} = {
   Ana: {
     name: "Ana",
     os: "Ubuntu / WSL",
-    sessions: ["devgo · running tests 18/26", "panes · lint clean", "palimpsest · idle"],
+    sessions: ["devgo · running tests 18/26", "panes · lint clean", "sunstone · idle"],
     startState: "working",
   },
   Steph: {
     name: "Steph",
     os: "Windows",
-    sessions: ["specs-lens · reading the brief", "callsign · building docs"],
+    sessions: ["specs-lens · reading the brief", "callsign · writing docs"],
     startState: "working",
   },
   Meli: {
@@ -44,7 +44,7 @@ export const MACHINES: {[name: string]: MachineInfo} = {
   Alina: {
     name: "Alina",
     os: "Ubuntu Server",
-    sessions: ["sunstone · server up 12 days", "devgo · deploy done"],
+    sessions: ["sunstone · server up 12 days", "devgo · release built"],
     startState: "done",
   },
 }

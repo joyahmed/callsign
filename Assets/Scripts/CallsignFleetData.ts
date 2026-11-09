@@ -1,5 +1,5 @@
 // CallsignFleetData.ts - sample fleet data (stand-in for live machine questions).
-// Owns: the 4 machines, their OS and sample sessions, and the ordered question queue.
+// Owns: the 4 named sessions (3 machines: Steph + Ana share the PC), their OS and sample sessions, and the ordered question queue.
 // Pure data, no scene access.
 
 export type MachineState = "working" | "done" | "needs Joy"

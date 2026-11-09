@@ -9,7 +9,7 @@ Callsign: your AI fleet calls you, you answer hands-free
 When one of my coding machines needs me, it calls me by name in my Specs. I answer out loud and keep training.
 
 ## What it does
-I run AI coding sessions on four machines: Ana, Steph, Meli and Alina. When a session needs a decision, it stops and waits for me. If I'm working out, that means stopping, walking to the desk, typing and walking back.
+I run four AI coding sessions on three machines, and each has a name: Steph (Windows) and Ana (WSL) on my PC, Meli on my Mac, Alina on my Ubuntu Server. When a session needs a decision, it stops and waits for me. If I'm working out, that means stopping, walking to the desk, typing and walking back.
 
 Callsign brings the question to me. A chime and a spoken call ("Meli calling Joy") play, and a card appears about 60 cm ahead, just below eye level, with the question. I answer by voice (in the preview, a Speak button stands in), or with one pinch: Yes, No or Later. The card says "Sent to Meli" and gets out of the way. A row of four callsigns shows which machine is working and which needs me, and pinching one shows what that machine is doing.
 

@@ -7,7 +7,7 @@ status: approved
 <!-- Filled in by plan-lens from the learner's interview. Use the learner's words. Mark any value they didn't choose as (default). -->
 
 ## The one spatial moment
-Joy is mid-workout with the glasses on all day. His Claude sessions run on four machines (Ana, Steph, Meli, Alina). Instead of leaving the workout to read a question and type an answer at the desk, a voice in the glasses says **"Meli calling Joy"** and the question appears, for example **"Meli · trove: Push phase 16 to main now?"** It should feel like Joy's own personal assistant for his fleet. Joy speaks his answer, the session goes back to work, and he keeps training.
+Joy is mid-workout with the glasses on all day. His Claude sessions run as four named sessions on three machines: Steph (Windows) and Ana (WSL) share his PC, Meli is his Mac, Alina is his Ubuntu Server. Instead of leaving the workout to read a question and type an answer at the desk, a voice in the glasses says **"Meli calling Joy"** and the question appears, for example **"Meli · trove: Push phase 16 to main now?"** It should feel like Joy's own personal assistant for his fleet. Joy speaks his answer, the session goes back to work, and he keeps training.
 
 ## Why it belongs on glasses
 - Uses: **leaves your body free** (hands stay on the workout, eyes stay up). Also **draws in the world**: the question comes to where he is, not to a desk.

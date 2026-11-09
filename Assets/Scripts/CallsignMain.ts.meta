@@ -1,0 +1,113 @@
+- !<AssetImportMetadata/56cf11ac-72ce-443e-972d-3d65aad73e99>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 99a0bf28-65cd-463f-93e9-331966955400
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 99a0bf28-65cd-463f-93e9-331966955400
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e0ce95a7-3fb3-4613-85fb-3b0764a3b850
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e0ce95a7-3fb3-4613-85fb-3b0764a3b850>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 6f827bec-9742-40d6-b112-46c53238bfa4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchor: false
+    callAfterChime: false
+    callAlina: false
+    callAna: false
+    callMeli: false
+    callSteph: false
+    cameraObject: false
+    chime: false
+    debugAutoAnswerSeconds: false
+    distanceCm: false
+    dropCm: false
+    firstPingDelay: false
+    fleetDot: false
+    fleetRow: false
+    followSpeed: false
+    machineViewSeconds: false
+    nextPingDelay: false
+    pingCard: false
+    sentHoldSeconds: false
+    volume: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      anchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pingCard: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      fleetRow: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      fleetDot: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      chime: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      callMeli: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      callAna: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      callAlina: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      callSteph: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      firstPingDelay: !<float> 5.000000
+      nextPingDelay: !<float> 4.000000
+      sentHoldSeconds: !<float> 2.000000
+      machineViewSeconds: !<float> 8.000000
+      callAfterChime: 0.900000
+      distanceCm: !<float> 60.000000
+      dropCm: !<float> 15.000000
+      followSpeed: !<float> 3.000000
+      volume: !<float> 1.000000
+      debugAutoAnswerSeconds: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CallsignMain - fleet calls Joy</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject cameraObject {"hint":"Main camera SceneObject (head pose)"}'
+    - '// @input SceneObject anchor {"hint":"Head-following anchor that holds the card, fleet row and dot"}'
+    - '// @input AssignableType_1 pingCard {"hint":"Ping card UI"}'
+    - '// @input AssignableType_2 fleetRow {"hint":"Fleet row UI"}'
+    - '// @input AssignableType_3 fleetDot {"hint":"Fleet dot UI"}'
+    - '// @input Asset.AudioTrackAsset chime {"hint":"Chime played before each call"}'
+    - '// @input Asset.AudioTrackAsset callMeli {"hint":"Voice clip: Meli calling Joy"}'
+    - '// @input Asset.AudioTrackAsset callAna {"hint":"Voice clip: Ana calling Joy"}'
+    - '// @input Asset.AudioTrackAsset callAlina {"hint":"Voice clip: Alina calling Joy"}'
+    - '// @input Asset.AudioTrackAsset callSteph {"hint":"Voice clip: Steph calling Joy"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float firstPingDelay = 5 {"hint":"Seconds before the first call", "widget":"slider", "min":1, "max":20, "step":0.5}'
+    - '// @input float nextPingDelay = 4 {"hint":"Seconds between an answer and the next call", "widget":"slider", "min":1, "max":20, "step":0.5}'
+    - '// @input float sentHoldSeconds = 2 {"hint":"Seconds the Sent line stays before the card fades", "widget":"slider", "min":0.5, "max":6, "step":0.5}'
+    - '// @input float machineViewSeconds = 8 {"hint":"Seconds a machine view stays without a pinch", "widget":"slider", "min":2, "max":20, "step":0.5}'
+    - '// @input float callAfterChime = 0.9 {"hint":"Seconds from chime to spoken call", "widget":"slider", "min":0, "max":2, "step":0.1}'
+    - '// @input float distanceCm = 60 {"hint":"Card distance in front of the eyes, cm", "widget":"slider", "min":30, "max":120, "step":1}'
+    - '// @input float dropCm = 3 {"hint":"Card drop below eye level, cm", "widget":"slider", "min":0, "max":40, "step":1}'
+    - '// @input float followSpeed = 3 {"hint":"Head-follow ease speed (higher = snappier)", "widget":"slider", "min":0.5, "max":10, "step":0.5}'
+    - '// @input float volume = 1 {"hint":"Audio volume", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Debug"}'
+    - '// @input float debugAutoAnswerSeconds {"hint":"Debug only: seconds after each call to auto-press Speak (0 = off)", "widget":"slider", "min":0, "max":10, "step":0.5}'
+    - '// @ui {"widget":"group_end"}'

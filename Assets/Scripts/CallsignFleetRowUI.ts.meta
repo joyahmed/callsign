@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/dcff0078-7ad3-4241-8e1a-fe5c39f20b02>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 68a0c187-818a-4ecd-b673-0c197c8f6aeb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 68a0c187-818a-4ecd-b673-0c197c8f6aeb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7f7af92a-0e12-456c-954d-0e3e9143d76e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7f7af92a-0e12-456c-954d-0e3e9143d76e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 8627c5f8-7d36-4a8f-a6bb-c3fd934076b2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gap: false
+    tagHeight: false
+    tagWidth: false
+    textSize: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - tagWidth: !<float> 6.000000
+      tagHeight: !<float> 4.000000
+      gap: 0.600000
+      textSize: !<float> 30.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CallsignFleetRowUI - machine tags</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float tagWidth = 6 {"hint":"Tag width in cm", "widget":"slider", "min":4, "max":8, "step":0.5}'
+    - '// @input float tagHeight = 4 {"hint":"Tag height in cm", "widget":"slider", "min":3, "max":6, "step":0.5}'
+    - '// @input float gap = 0.6 {"hint":"Gap between tags in cm", "widget":"slider", "min":0, "max":2, "step":0.1}'
+    - '// @input float textSize = 30 {"hint":"Tag label text size", "widget":"slider", "min":20, "max":60, "step":1}'
+    - '// @ui {"widget":"group_end"}'

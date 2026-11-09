@@ -1,6 +1,4 @@
-# Callsign - Devpost text (draft)
-
-Fill the bracketed parts after the build.
+# Callsign - Devpost text
 
 ## Title
 Callsign: your AI fleet calls you, you answer hands-free
@@ -27,7 +25,13 @@ Hands stay on the workout and eyes stay up. A phone has to be picked up, unlocke
 - Real next step: a small relay that my sessions post to, so the Lens shows live questions.
 
 ## What I learned
-[2-3 lines after the build: e.g. placing UI for an additive display, designing for "show only when needed".]
+- The display is additive: black is invisible, so every panel uses light text on a light-grey glass plate.
+- The preview shows less above and below centre than I expected. With the card 15 cm below eye level, the machine row fell out of view, so the card sits 3 cm below eye level.
+- "Show only when needed" is the whole design: nothing is on screen until a machine calls, and the card leaves 2 seconds after the answer.
+- Test tools have to match the kit versions. LEAF 4 needs Interaction Kit 4, so this project uses LEAF 2.0.2 with Interaction Kit 2.0.0.
 
 ## Pre-existing code disclosure
-None beyond Lens Studio templates and packages (SPECS Base Template, Spectacles Interaction Kit, UI Kit), the hackathon's plan-lens skill and AI tools (CLAD, Claude Code). [Confirm after the build.]
+None. Everything was made during the hackathon, on top of:
+- Lens Studio's SPECS Base Template and packages: Spectacles Interaction Kit 2.0.0, Spectacles UI Kit 2.0.0, LEAF 2.0.2 (tests), Bitmoji 3D (pulled in by the LEAF install, not used).
+- The hackathon's `plan-lens` skill, and AI tools: Snap's CLAD agents and Claude Code.
+- The call voices were generated with Microsoft Edge neural voices (Ava, Emily, Natasha) and Piper (Amy).

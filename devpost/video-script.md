@@ -1,6 +1,6 @@
 # Callsign - video script (rough cut 2:34, hard limit 3:00)
 
-Picture: `G:\hackathon\callsign-video\rough-cut.mp4` (built by `cut.sh` in that folder, not in git).
+Picture: one continuous Lens Studio preview take, cut only for length, with short title cards.
 It already has the Lens sounds: the chime and each machine's call voice.
 Joy reads the VOICE lines over it, one block per time range. Pauses are fine; the call voices
 should stay audible, so don't talk over "Meli calling Joy" at 0:49, "Ana calling Joy" at 1:17 and

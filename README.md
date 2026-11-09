@@ -1,36 +1,27 @@
 # Callsign
 
-A Lens for Snap Specs. When one of my AI coding sessions needs me, it calls me by name, and I answer out loud without leaving my workout.
+I run four AI coding sessions on three machines and each one has a name. Steph and Ana are on my PC, Steph on Windows and Ana on WSL. Meli is on my Mac and Alina is on my Ubuntu Server.
 
-**Video (2:34):** https://youtu.be/cusl_jVHmCY
+When one of them needs me, it stops and waits for an answer. If I'm working out, I have to stop, walk to the desk, type the answer and walk back. That happens many times a day, so I built this Lens for Snap Specs.
 
-## What it does
+Video, 2:34: https://youtu.be/cusl_jVHmCY
 
-I run four AI coding sessions on three machines: Steph (Windows) and Ana (WSL) on my PC, Meli on my Mac, Alina on my Ubuntu Server. When a session needs a decision, it stops and waits for me.
+## How it works
 
-Callsign brings the question to me:
+Nothing shows until a machine needs me. Then I hear a chime and the machine calls me by name, like "Meli calling Joy", and a card shows me the question. I answer out loud, or I pinch Yes, No or Later. In the Lens Studio preview there's no mic, so the Speak button stands in for my voice.
 
-- Nothing shows until a machine needs me.
-- A chime and a spoken call play ("Meli calling Joy"), and a card shows the question.
-- I answer by voice (in the preview, the Speak button stands in), or with one pinch: Yes, No or Later.
-- A row of four callsigns shows who is working and who needs me. Pinch one to see what that machine is doing.
+Below the card there's a row with all four callsigns, so I can see who is working and who needs me. I can pinch any of them to see what that machine is doing.
 
-Today the questions are sample data (`Assets/Scripts/CallsignFleetData.ts`). Next is a small relay that my sessions post to, so the Lens shows live questions.
+Each machine calls in its own voice, so I know who it is before I look. I made the clips with Microsoft Edge neural voices (Ava, Emily, Natasha) and Piper (Amy), because text-to-speech in Lens Studio is deprecated.
+
+The questions are sample data for now, in `Assets/Scripts/CallsignFleetData.ts`. Next I'm building a small relay that my sessions post to, so the Lens shows the real questions.
 
 ## Run it
 
-1. Open `specs-lens.esproj` in Lens Studio 5.23.2 (5.22 or later).
-2. Press Preview. Meli calls first; answer with Speak or a pinch.
+Open `specs-lens.esproj` in Lens Studio 5.23.2 and press Preview. Meli calls first.
 
-## Tests
+## How I built it
 
-LEAF tests cover each done criterion in the brief: 6 of 6 pass in the Lens Studio preview (LEAF 2.0.2, Spectacles Interaction Kit 2.0.0).
+I planned it with the `plan-lens` skill (the brief is in `devpost/design-brief.md`) and built it with Snap's CLAD agents in Lens Studio, using Spectacles Interaction Kit 2.0.0 and UI Kit. Every done criterion in the brief has a LEAF test, and all 6 pass in the preview (LEAF 2.0.2).
 
-## How it was built
-
-- Planned with the `plan-lens` skill: `devpost/design-brief.md`.
-- Built with Snap's CLAD agents in Lens Studio, using Spectacles Interaction Kit and UI Kit.
-- Call voices: Microsoft Edge neural voices (Ava, Emily, Natasha) and Piper (Amy), pre-made clips.
-- Devpost text: `devpost/submission.md`.
-
-Made for the Learn AR with SPECS hackathon.
+I made it for the Learn AR with SPECS hackathon. The Devpost text is in `devpost/submission.md`.

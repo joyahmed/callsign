@@ -18,8 +18,9 @@ Hands stay on the workout and eyes stay up. A phone has to be picked up, unlocke
 
 ## How I built it
 - Planned with the `plan-lens` skill; the brief is in `devpost/design-brief.md`.
-- Built in Lens Studio [version] with Snap's CLAD agents, using Spectacles Interaction Kit and UI Kit.
-- LEAF tests for each done criterion: [N of 6 pass].
+- Built in Lens Studio 5.23.2 with Snap's CLAD agents, using Spectacles Interaction Kit and UI Kit.
+- Each machine calls in its own voice: Ava (Steph), Emily (Ana), Natasha (Meli), Amy (Alina, Piper on the Ubuntu server). Lens Studio text-to-speech is deprecated, so the calls are pre-made clips.
+- LEAF tests for each done criterion: 6 of 6 pass in the Lens Studio preview (LEAF 2.0.2).
 
 ## What's real and what's sample
 - Sample: the questions and machine status are hard-coded; the Speak button stands in for speech-to-text in the preview.

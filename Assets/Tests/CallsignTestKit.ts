@@ -4,9 +4,18 @@
 
 import {DefaultLeafInteractor} from "Leaf.lspkg/Interactors/interactor/DefaultLeafInteractor"
 import {findInteractableByName} from "Leaf.lspkg/Interactors/InteractableUtils"
-import {findSceneObjectByName, sleep, waitUntil} from "Leaf.lspkg/Utils/common/Utils"
+import {findSceneObjectByName, sleep} from "Leaf.lspkg/Utils/common/Utils"
 import {ElementContent} from "SpectaclesUIKit.lspkg/Scripts/Components/Content/ElementContent"
 import {CallsignMain} from "../Scripts/CallsignMain"
+
+/** Poll cond every 50 ms until true or timeout (LEAF 2.0.2 has no waitUntil). */
+export async function waitUntil(cond: () => boolean, timeoutMs: number, msg: () => string): Promise<void> {
+  const start = getTime()
+  while (!cond()) {
+    if ((getTime() - start) * 1000 > timeoutMs) throw new Error(`waitUntil timed out after ${timeoutMs} ms: ${msg()}`)
+    await sleep(50)
+  }
+}
 
 export function obj(name: string): SceneObject {
   const o = findSceneObjectByName(name)

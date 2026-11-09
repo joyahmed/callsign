@@ -4,7 +4,7 @@ I run four AI coding sessions on three machines and each one has a name. Steph a
 
 When one of them needs me, it stops and waits for an answer. If I'm working out, I have to stop, walk to the desk, type the answer and walk back. That happens many times a day, so I built this Lens for Snap Specs.
 
-Video, 2:34: https://youtu.be/cusl_jVHmCY
+Video, 2:14: https://youtu.be/O3RnAPA3Tmw
 
 ## How it works
 

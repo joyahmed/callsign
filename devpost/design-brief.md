@@ -2,7 +2,7 @@
 status: approved
 ---
 
-# Design brief: Fleet Call
+# Design brief: Fleet Calling Joy
 
 <!-- Filled in by plan-lens from the learner's interview. Use the learner's words. Mark any value they didn't choose as (default). -->
 
@@ -14,7 +14,7 @@ Joy is mid-workout with the glasses on all day. His Claude sessions run on four 
 - Why it's better than the phone or laptop version: "you guyz ask me questions, i have to leave my workout and come back and type. instead i could jst speak on the glasses." A phone has to be picked up, unlocked and typed on. The glasses bring the question to him and take a spoken answer.
 
 ## Product or overlay
-- Type: **product.** The fleet ping card is the experience.
+- Type: **product.** The fleet ping card is the experience. Name: **Fleet Calling Joy**. The fleet row always reads Ana | Steph | Meli | Alina.
 - What the real version would sense: live questions from Joy's machines and Claude sessions, and his voice.
 - Stand-in for the preview:
   - **Sample fleet data** hard-coded in the Lens: a queue of 4 questions, one per machine (default):

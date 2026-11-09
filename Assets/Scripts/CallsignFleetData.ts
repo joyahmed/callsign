@@ -43,7 +43,7 @@ export const MACHINES: {[name: string]: MachineInfo} = {
   },
   Alina: {
     name: "Alina",
-    os: "server",
+    os: "Ubuntu server",
     sessions: ["sunstone · server up 12 days", "zetta-community · deploy done"],
     startState: "done",
   },

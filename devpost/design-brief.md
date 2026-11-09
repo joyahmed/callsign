@@ -23,7 +23,7 @@ Joy is mid-workout with the glasses on all day. His Claude sessions run on four 
     3. "Alina calling Joy" · sunstone: "Restart the server now?"
     4. "Steph calling Joy" · specs-lens: "Start the build from the brief?"
   - **Voice stand-in:** a big **Speak** button. Pinching it shows a sample spoken answer on the card, as if Joy had said it (for example "Yes, push it"). On real glasses, speech-to-text does this job.
-  - **Sample machine views:** for swapping, each machine (Ana, Steph, Meli, Alina) has a hard-coded view: its name, OS (Ana = Ubuntu/WSL, Steph = Windows, Meli = Mac, Alina = Ubuntu server) (default), 2 to 3 running sessions with a project name and a status line like "devgo · running tests 18/26" (default).
+  - **Sample machine views:** for swapping, each machine (Ana, Steph, Meli, Alina) has a hard-coded view: its name, OS (Ana = Ubuntu/WSL, Steph = Windows, Meli = Mac, Alina = Ubuntu Server) (default), 2 to 3 running sessions with a project name and a status line like "devgo · running tests 18/26" (default).
   - The first ping arrives on its own about 5 seconds after the Lens starts (default). Each next ping arrives about 4 seconds after the previous one is answered (default).
 
 ## Where things live

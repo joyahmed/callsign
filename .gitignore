@@ -30,3 +30,6 @@ Cache/
 Workspaces/
 
 .virtual-scene.json
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json

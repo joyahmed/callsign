@@ -4,7 +4,8 @@
 
 import {Scenario} from "Leaf.lspkg/Scenarios/scenario/Scenario"
 import {expect} from "Leaf.lspkg/Utils/common/Expect"
-import {sleep, waitUntil} from "Leaf.lspkg/Utils/common/Utils"
+import {sleep} from "Leaf.lspkg/Utils/common/Utils"
+import {waitUntil} from "./CallsignTestKit"
 import {main, obj, text, visible, waitForPing} from "./CallsignTestKit"
 
 @component

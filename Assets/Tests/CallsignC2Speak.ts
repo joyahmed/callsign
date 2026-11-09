@@ -2,7 +2,7 @@
 
 import {Scenario} from "Leaf.lspkg/Scenarios/scenario/Scenario"
 import {expect} from "Leaf.lspkg/Utils/common/Expect"
-import {waitUntil} from "Leaf.lspkg/Utils/common/Utils"
+import {waitUntil} from "./CallsignTestKit"
 import {cardSummary, main, pinch, text, visible, waitForPing} from "./CallsignTestKit"
 
 @component

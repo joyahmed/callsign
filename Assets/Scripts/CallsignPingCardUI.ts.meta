@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/0787c157-9c9b-4faf-89a9-1db33785920a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5722e7d4-28f5-477a-b665-1969f98ecb5c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5722e7d4-28f5-477a-b665-1969f98ecb5c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4c98807e-e6c9-49de-829b-054b2f5e2910
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4c98807e-e6c9-49de-829b-054b2f5e2910>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9acdde1c-adbd-4599-b393-7ca0df217e95
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bodyColor: false
+    buttonHeight: false
+    cardSize: false
+    fadeSeconds: false
+    quickWidth: false
+    speakWidth: false
+    titleColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cardSize: !<Vec2> {x: 27.000000, y: 16.000000}
+      speakWidth: !<float> 7.000000
+      quickWidth: !<float> 5.000000
+      buttonHeight: 4.500000
+      titleColor: !<Vec4> {x: 0.550000, y: 0.850000, z: 1.000000, w: 1.000000}
+      bodyColor: !<Vec4> {x: 0.950000, y: 0.950000, z: 0.950000, w: 1.000000}
+      fadeSeconds: 0.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CallsignPingCardUI - ping card and machine view</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input vec2 cardSize = {27,16} {"hint":"Card size in cm (width, height)"}'
+    - '// @input float speakWidth = 7 {"hint":"Speak button width in cm", "widget":"slider", "min":4, "max":12, "step":0.5}'
+    - '// @input float quickWidth = 5 {"hint":"Yes / No / Later button width in cm", "widget":"slider", "min":4, "max":8, "step":0.5}'
+    - '// @input float buttonHeight = 4.5 {"hint":"Button height in cm", "widget":"slider", "min":3, "max":7, "step":0.5}'
+    - '// @input vec4 titleColor = "{0.55, 0.85, 1.0, 1.0}" {"hint":"Title line color (keep light: the display is additive)", "widget":"color"}'
+    - '// @input vec4 bodyColor = "{0.95, 0.95, 0.95, 1.0}" {"hint":"Body text color", "widget":"color"}'
+    - '// @input float fadeSeconds = 0.5 {"hint":"Seconds the fade-out takes", "widget":"slider", "min":0.1, "max":2, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'

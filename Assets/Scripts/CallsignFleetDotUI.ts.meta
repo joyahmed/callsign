@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/3921fd6f-43eb-4a22-a424-583db41865f6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> afb765c4-c83f-4b4e-807c-02535dcc0311
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> afb765c4-c83f-4b4e-807c-02535dcc0311
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> aa6de683-115b-4401-8b34-fc14d0cd2dd2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/aa6de683-115b-4401-8b34-fc14d0cd2dd2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 41b72b0e-6c80-4719-b6ea-03a07124a0af
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    dotSize: false
+    label: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - dotSize: 3.500000
+      label: Fleet
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CallsignFleetDotUI - fleet dot</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float dotSize = 3.5 {"hint":"Dot size in cm", "widget":"slider", "min":2, "max":6, "step":0.5}'
+    - '// @input string label = "Fleet" {"hint":"Dot label"}'
+    - '// @ui {"widget":"group_end"}'
